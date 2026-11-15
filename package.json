@@ -1,7 +1,11 @@
+
 {
   "name": "nextmind",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "predev": "node scripts/compile-css.mjs",
     "dev": "next dev",
