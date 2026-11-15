@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@prisma/client": ["./src/vendor/prisma-client/index.js"],
+      "react-hook-form": ["./src/vendor/react-hook-form/index.js"],
+      "@hookform/resolvers/zod": ["./src/vendor/hookform-resolvers-zod/index.js"]
+    }
+  }
+}
